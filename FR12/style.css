@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 4rem;
+}
+#header{
+    padding:3rem 0;
+}
+.all-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+
+}
+.all-header a{
+    text-decoration: none;
+}
+.all-header .left{
+    width: 20%;
+}
+
+.all-header .left img{
+    width: 100%;
+}
+.all-header .center{
+    width: 60%;
+    text-align: center;
+}
+.all-header .center a{
+    margin:0 10px;
+    position: relative;
+}
+.all-header .right{
+    width: 20%;
+    text-align: right;
+}
+.all-header .right i{
+    margin:0 10px;
+
+}
+.all-header .right span{
+    margin:0 10px;
+}
+.all-header .center a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: .5s;
+}
+.all-header .center a:hover::before{
+    width: 100%;
+} 
+#flower{
+    padding: 8rem 0;
+    background-image: url('https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    #flower .text{
+        width: 30%;
+    }
+
+.all-mid .top{
+    border-bottom:2px solid red ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+.all-mid .top::before{
+    content:'';
+    position: absolute;
+    width:5% ;
+    height: 2px;
+    right:0%;
+    bottom: -2px;
+    background-color: black;
+}
+
+.all-mid .center{
+    border-bottom: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+.all-mid .center::before{
+    content:'';
+    position: absolute;
+    width:15% ;
+    height: 2px;
+    right:0%;
+    bottom: -2px;
+    background-color: black; 
+}
+.all-mid .bottom{
+    border-bottom: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position:relative;
+}
+.all-mid .bottom::before{
+    content:'';
+    position: absolute;
+    width:30% ;
+    height: 2px;
+    right:0%;
+    bottom: -2px;
+    background-color: black; 
+} 
+#section{
+    padding: 3rem 0;
+}
+.all-section{
+    display: flex;
+    justify-content: space-between;
+}
+.all-section .left{
+    width: 45%;
+
+}
+.all-section .right{
+    width: 48%;
+}
+.all-section .left img{
+    width: 100%;
+}
+.all-section .right p{
+margin: 10px 0;
+font-size: 20px;
+}
+.all-section .right i{
+    margin: 10px 0;
+    color:red;
+    padding:10px;
+}
+.all-section .right h5 span{
+    color:red;
+    font-size: 30px;
+}
+.all-section .right span{
+    font-size:20px ;
+}
+.all-section .right h5{
+    font-size: 30px;
+    font-weight: 300;
+    
+}
